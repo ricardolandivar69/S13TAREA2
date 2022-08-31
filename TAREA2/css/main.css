@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right top, #d22aa8, #c128ac, #ae27b0, #9a29b3, #832bb5);
+  color:rgb(241, 234, 234);
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.grupo{
+    display: block;
+    width: 350px;
+    height: 50px;
+    margin-bottom:10px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    color:white;
+    background-image: linear-gradient(to right top, #33373d, #1c4b6e, #307a9a, #4eacc3, #77e0e8);;    transition: .5s ease-in-out;
+}
+.grupo:hover{
+    height: 60px;
+    background-image: linear-gradient(to right top, #4853e4, #7a8ca3, #5a8da5, #344292, #2117a8);
+}
+.grupo:ventas{
+    background-image: linear-gradient(to right top, #46b51e);
+}

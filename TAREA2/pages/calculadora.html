@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ventas.css">
+    <title>Calculadora</title>
+    <style type="">
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calculadora</h1>
+        <form action="../index.html">
+            <div class="grupo">
+                <label >Numero 1</label>
+                <input type="text" id="numero 1" pattern="[0-100]+">
+            </div>
+            <div class="grupo">
+                <label >Numero 2</label>
+                <input type="text" id="numero 2" pattern="[0-100]+">
+            </div>
+            <div class="grupo">
+               <button value="suma" onclick="sum.suma()">+</button>
+               <button value="resta" onclick="res.resta()">-</button>
+               <button value="multiplicacion" onclick="mult.multiplicacion()"> * </button>
+               <button value="division" onclick="div.division()">/</button>
+               <button value="mod" onclick="md.mod()">%</button>
+            </div>
+            <div class="grupo">
+                <button type="reset">Limpiar</button>
+                <button type="submit"> Regresar</button>
+             </div>
+            <textarea id="resp" rows="10">
+            </textarea>
+        </form>
+    </div>
+    <script src="../js/ejercicios.js">  </script>
+</body>
+</html>
